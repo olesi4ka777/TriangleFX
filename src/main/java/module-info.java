@@ -1,0 +1,9 @@
+module com.example.trianglefx {
+    requires javafx.controls;
+    requires javafx.fxml;
+
+    requires org.kordamp.bootstrapfx.core;
+
+    opens com.example.trianglefx to javafx.fxml;
+    exports com.example.trianglefx;
+}
